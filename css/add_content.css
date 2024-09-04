@@ -1,0 +1,53 @@
+/* ----------------------------------------------------------------
+                    HEADER
+---------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+                    NAV 
+---------------------------------------------------------------- */
+.add_content{
+    background: linear-gradient(rgb(27, 27, 27),rgb(90, 90, 90),rgb(27, 27, 27));
+}
+/* ----------------------------------------------------------------
+                    MAIN
+---------------------------------------------------------------- */
+main .box_content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+main .text{
+    flex-grow: 1;
+    padding-left: 1rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .arrow_box{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+main .arrow_content{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-flow: column;
+}
+main .content_box{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-flow: column;
+}
+/* ----------------------------------------------------------------
+                    FOOTER
+---------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+                    JS
+---------------------------------------------------------------- */

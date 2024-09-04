@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Card Read</title>
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/card_read.css">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css" />
+    </head>
+    <body><div class="full_screen">
+        <!-- ------------------------------------------------------------------
+                                HEADER
+        ------------------------------------------------------------------ -->
+        <header style="text-align: center;">
+            <img src="../picture/panel.png" alt="" width="550rem">
+        </header>
+        <!-- ------------------------------------------------------------------
+                                NAV
+        ------------------------------------------------------------------ -->
+        <nav>
+            <ul>
+                <li><a href="../html/index.html" class="top">トップ</a></li>
+                <li><a href="../html/recording_card.html" class="recording_card">収録カード</a></li>
+                <li><a href="../html/play.html" class="play">遊び方</a></a></li>
+                <li><a href="../html/card_type.html" class="card_type">カード種類</a></a></li>
+                <li><a href="../html/card_read.html" class="card_read">カードの読み方</a></li>
+                <li><a href="../html/add_content.html" class="add_content">追加内容</a></li>
+                <li><a href="../html/download.html" class="download">ダウンロード</a></li>
+            </ul>
+        </nav>
+        <!-- ------------------------------------------------------------------
+                                MAIN
+        ------------------------------------------------------------------ -->
+        <main>
+            <a href="#moodal" class="show"><img src="../picture/Lonely Wolf.png" alt="" width="400rem"></a>
+            <ul>
+                <li>カードの種類
+                    <ul>
+                        <li>青：スターカード</li>
+                        <li>ピンク：進化カード</li>
+                        <li>黄：装備カード</li>
+                        <li>グレイ：アイテムカード</li>
+                    </ul>     
+                </li>
+                <li>カードのコスト</li>
+                <li>カードの名前</li>
+                <li>カードの種族</li>
+                <li>効果の種類
+                    <ul>
+                        <li>Act/1Turn：1ターンに1回しか使えない効果。発動するのにActiveボタンを押す必要がある。</li>
+                        <li>Passive：条件が満たされたら、自動に発動する効果。</li>
+                    </ul>     
+                </li>
+                <li>効果を発動するのに、このカードが払わなければならないMP</li>
+                <li>特殊の効果で試合に1回しか使えない</li>
+                <li>効果の内容</li>
+                <li>カードの能力値（左から）
+                    <ul>
+                        <li>体力（HP）</li>
+                        <li>攻撃力（ATK）</li>
+                        <li>防御力（DEF）</li>
+                        <li>マナー（MP）</li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="moodal" class="showbox">
+                <img src="../picture/Lonely Wolf.png" alt="" width="400rem">
+            </div>
+        </main>
+        <!-- ------------------------------------------------------------------
+                                FOOTER
+        ------------------------------------------------------------------ -->
+        <footer>
+            &copy;2024 VO MINH QUANG
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"
+        integrity="sha256-e8kfivdhut3LQd71YXKqOdkWAG1JKiOs2hqYJTe0uTk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/card_read.js"></script>
+    </body>
+</html>
